@@ -33,7 +33,7 @@ export function NavBar() {
 
     {/* <!-- Nav Item - Pages Collapse Menu --> */}
     <li className="nav-item">
-        <a className="nav-link collapsed" href="components" data-toggle="collapse" data-target="#collapseTwo"
+        <a className="nav-link collapsed" href="/components" data-toggle="collapse" data-target="#collapseTwo"
             aria-expanded="true" aria-controls="collapseTwo">
             <i className="fas fa-fw fa-cog"></i>
             <span>Components</span>
@@ -49,7 +49,7 @@ export function NavBar() {
 
     {/* <!-- Nav Item - Utilities Collapse Menu --> */}
     <li className="nav-item">
-        <a className="nav-link collapsed" href="utilities" data-toggle="collapse" data-target="#collapseUtilities"
+        <a className="nav-link collapsed" href="/utilities" data-toggle="collapse" data-target="#collapseUtilities"
             aria-expanded="true" aria-controls="collapseUtilities">
             <i className="fas fa-fw fa-wrench"></i>
             <span>Utilities</span>
@@ -78,14 +78,14 @@ export function NavBar() {
 
     {/* <!-- Nav Item - Charts --> */}
     <li className="nav-item">
-        <a className="nav-link" href="charts">
+        <a className="nav-link" href="/charts">
             <i className="fas fa-fw fa-chart-area"></i>
             <span>Charts</span></a>
     </li>
 
     {/* <!-- Nav Item - Tables --> */}
     <li className="nav-item">
-        <a className="nav-link" href="tables">
+        <a className="nav-link" href="/tables">
             <i className="fas fa-fw fa-table"></i>
             <span>Tables</span></a>
     </li>
