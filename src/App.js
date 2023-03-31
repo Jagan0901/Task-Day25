@@ -13,7 +13,7 @@ function App() {
     <div id="wrapper">
        <NavBar/>
        <Routes>
-  <Route path="/dashboard" element={<Dashboard />}/>
+  <Route path="/" element={<Dashboard />}/>
   <Route path="/components" element={<CustomComponents/>}/>
   <Route path="/utilities" element={<Utilities/>}/>
   <Route path="/charts" element={<Charts/>}/>
